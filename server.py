@@ -14,9 +14,9 @@ class ProductHandler(BaseHTTPRequestHandler):
             return
 
         with DATA_FILE.open(encoding="utf-8") as file:
-            courses = json.load(file)
+            products = json.load(file)
 
-        body = json.dumps(courses).encode("utf-8")
+        body = json.dumps(products).encode("utf-8")
 
         self.send_response(200)
         self.send_header("Content-Type", "application/json; charset=utf-8")
