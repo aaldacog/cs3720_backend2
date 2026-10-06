@@ -26,6 +26,7 @@ class ProductHandler(BaseHTTPRequestHandler):
 
 
 if __name__ == "__main__":
+    print("PRODUCTS VERSION - OCT 5", flush=True)
     port = int(os.environ.get("PORT", "8000"))
     server = ThreadingHTTPServer(("0.0.0.0", port), ProductHandler)
 
