@@ -1,0 +1,12 @@
+[
+  {
+    "courseId": "cs3720",
+    "coursename": "Mobile Applications Development",
+    "students": [1001, 1002, 1003]
+  },
+  {
+    "courseId": "cs4330",
+    "coursename": "CS Project I",
+    "students": [2001, 2002, 1003]
+  }
+]
